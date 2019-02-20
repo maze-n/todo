@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Todo</string>
+    <string name="enterTodoHint">Enter the name of task...</string>
+</resources>
