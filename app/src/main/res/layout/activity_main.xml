@@ -18,15 +18,14 @@
             app:layout_constraintEnd_toStartOf="@+id/saveTodoButtonId" android:layout_marginStart="8dp"
             app:layout_constraintStart_toStartOf="parent" android:hint="@string/enterTodoHint"
             android:textColorHint="#aac2ff"
-            android:textColor="@color/cardview_light_background"
-    />
+            android:textColor="@color/cardview_light_background"/>
     <Button
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:id="@+id/saveTodoButtonId"
             app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
             android:layout_marginTop="8dp" app:layout_constraintTop_toTopOf="parent"
-            android:background="@android:drawable/ic_menu_add"/>
+            android:background="@drawable/ic_action_add"/>
     <android.support.v7.widget.RecyclerView
             android:layout_width="0dp"
             android:layout_height="0dp" app:layout_constraintEnd_toEndOf="parent"

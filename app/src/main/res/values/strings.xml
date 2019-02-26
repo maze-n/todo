@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">Todo</string>
-    <string name="enterTodoHint">Enter the name of task...</string>
+    <string name="enterTodoHint">Enter the name of the task...</string>
     <string name="noTodo">No To-Do\'s Pending...</string>
+    <string name="editHint">Enter the new name of the task...</string>
 </resources>
