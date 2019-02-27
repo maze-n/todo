@@ -98,6 +98,7 @@ class listAdapter(private val list: ArrayList<Todo>, private val context: Contex
             val view = layoutInflater!!.inflate(R.layout.editpopup, null)
             val editTodoName = view.editNameId
             val editSaveButton = view.editSaveButtonId
+            view.editNameId.setText(clone.todoName)
 
             dialogBuilder = AlertDialog.Builder(context).setView(view)
             dialog = dialogBuilder!!.create()
@@ -105,7 +106,7 @@ class listAdapter(private val list: ArrayList<Todo>, private val context: Contex
 
             editSaveButton.setOnClickListener {
 
-                var newName = editTodoName.text.toString().trim()
+                val newName = editTodoName.text.toString().trim()
 
                 if(!TextUtils.isEmpty(newName)){
 

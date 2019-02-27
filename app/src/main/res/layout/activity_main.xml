@@ -18,7 +18,8 @@
             app:layout_constraintEnd_toStartOf="@+id/saveTodoButtonId" android:layout_marginStart="8dp"
             app:layout_constraintStart_toStartOf="parent" android:hint="@string/enterTodoHint"
             android:textColorHint="#aac2ff"
-            android:textColor="@color/cardview_light_background"/>
+            android:textColor="@color/cardview_light_background"
+    />
     <Button
             android:layout_width="50dp"
             android:layout_height="50dp"
